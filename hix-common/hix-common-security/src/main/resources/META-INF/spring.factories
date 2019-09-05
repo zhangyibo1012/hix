@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.springframework.cloud.openfeign.PigxHystrixFeignTargeterConfiguration,\
+  cn.orgtec.hix.common.security.component.GlobalExceptionHandlerResolver,\
+  cn.orgtec.hix.common.security.service.HixUserDetailsServiceImpl

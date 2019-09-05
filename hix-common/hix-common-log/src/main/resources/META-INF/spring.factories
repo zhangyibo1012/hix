@@ -1,0 +1,3 @@
+# Spring 加载所有模块注入容器  @Component 扫描不到包无法注册注入
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    cn.orgtec.hix.common.log.LogAutoConfiguration

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>hix</artifactId>
+        <groupId>cn.orgtec</groupId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>hix-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>hix 公共聚合模块</description>
+
+    <modules>
+        <module>hix-common-bom</module>
+        <module>hix-common-core</module>
+        <module>hix-common-data</module>
+        <module>hix-common-gateway</module>
+        <module>hix-common-log</module>
+        <module>hix-common-minio</module>
+        <module>hix-common-security</module>
+    </modules>
+
+</project>

@@ -1,0 +1,10 @@
+security:
+  encode:
+    # 前端密码密钥，必须16位
+    key: 'pigxpigxpigxpigx'
+
+# 不校验验证码终端 为什么配置了这里的属性就可以忽略验证码   FilterIgnorePropertiesConfig
+ignore:
+  clients:
+    - test
+

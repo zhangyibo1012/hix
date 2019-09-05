@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    cn.orgtec.hix.common.data.cache.RedisTemplateConfig,\
+    cn.orgtec.hix.common.data.cache.RedisCacheManagerConfig,\
+    cn.orgtec.hix.common.data.cache.RedisCacheAutoConfiguration,\
+    cn.orgtec.hix.common.data.tenant.HixTenantConfigProperties,\
+    cn.orgtec.hix.common.data.tenant.TenantContextHolderFilter,\
+    cn.orgtec.hix.common.data.tenant.HixFeignTenantConfiguration,\
+    cn.orgtec.hix.common.data.mybatis.MybatisPlusConfig

@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.orgtec.hix.common.core.config.JacksonConfig,\
+  cn.orgtec.hix.common.core.config.MessageSourceConfig,\
+  cn.orgtec.hix.common.core.config.RestTemplateConfig,\
+  cn.orgtec.hix.common.core.util.SpringContextHolder

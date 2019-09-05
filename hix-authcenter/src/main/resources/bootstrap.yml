@@ -1,0 +1,24 @@
+server:
+  port: 3000
+
+spring:
+  application:
+    name: @artifactId@
+  cloud:
+    config:
+      fail-fast: true
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      discovery:
+        enabled: true
+        service-id: hix-config
+  profiles:
+    active: dev
+
+# 注册中心配置
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://hix:hix@${EUREKA-HOST:pigx-eureka}:${EUREKA-PORT:8761}/eureka/
